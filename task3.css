@@ -1,0 +1,44 @@
+
+body{
+    text-align: center;
+background: #020024;
+background-image: url('https://static.vecteezy.com/system/resources/previews/022/006/618/non_2x/science-background-illustration-scientific-design-flasks-glass-and-chemistry-physics-elements-generative-ai-photo.jpeg');
+    height: 1px;
+    border: 200px;
+}
+legend{
+    background-color:rgb(184, 198, 203);
+    margin:0;
+    border:10px;
+    padding-top:0;
+    border-radius: 5px;
+
+}
+fieldset{
+     display: inline-block;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 250px;
+    padding-left: 20px;
+}
+button{
+    text-align: left;
+    color:red;
+    border-radius: 10px;
+    width: 60px;
+    margin: 10px;
+}
+   #result{
+        padding: 30px;
+        background-color: rgba(240, 248, 255, 0.633);
+        color: black;
+        height: 10px;
+        width:100px;
+        padding-left: 50px;
+        padding-top: 2px;
+        margin-top: 10px;
+    }
+        
+    
