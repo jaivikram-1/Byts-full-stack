@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit to Celcius</title>
+    <link rel="stylesheet" href="task3.css">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.gF-nGQiWo3HBhWVFBF_yXAHaJ_?cb=iwc2&rs=1&pid=ImgDetMain" type="image/x-icon">
+</head>
+<body>
+    <center>
+    <fieldset>
+    <legend>Fahrenheit to Celsius:</legend>
+    <label for="fahrenheit">FAHRENHEIT:</label><br>
+    <input type="number" id="fahrenheit"><br><br>
+    <button onclick="convertToCelsius()">Convert</button>
+    <p id="result"></p>
+    </fieldset>
+    </center>
+    <script>
+        function convertToCelsius() {
+         var fahrenheit = document.getElementById("fahrenheit").value;
+         var celsius = (fahrenheit - 32) * 5 / 9;
+         document.getElementById("result").innerText ="Celsius: " + celsius.toFixed(2) + "°C";
+    }
+    </script>
+</body>
+</html>
