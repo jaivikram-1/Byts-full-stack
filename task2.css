@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+background: #020024;
+background-image: url('https://th.bing.com/th/id/OIP.tDq3wkoWuIBouXNJNqLN8gAAAA?cb=iwc2&rs=1&pid=ImgDetMain');
+
+    height: 1px;
+    width: 20;
+    border: 200px;
+}
+h1{
+    background-color:rgba(4, 178, 235, 0.599);
+    margin:0;
+    border:10px;
+    margin-top: 200px;
+    margin-left: 610px;
+    margin-right: 610px;
+    border-radius: 5px;
+
+}
+div{
+    text-align: center;
+    margin-right: 90px;
+}
+fieldset{
+     display: inline-block;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 0%;;
+}
+button{
+    text-align: left;
+    color:red;
+    border-radius: 10px;
+    width: 40px;
+    margin: 10px;
+}
+   #result{
+        padding:   0px;
+        background-color: rgba(240, 248, 255, 0.697);
+        color:black;
+        height: 10px;
+        width:100px;
+        padding-left: 50px;
+        margin-left: 60px;   
+    }
