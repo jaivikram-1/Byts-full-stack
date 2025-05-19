@@ -17,6 +17,7 @@ body{
 background: #2A7B9B;
 background-image: url('https://th.bing.com/th/id/OIP.5yoJUOtisr3xq6wtJedmDgHaEo?cb=iwc2&rs=1&pid=ImgDetMain');    height: 1px;
     border: 200px;
+}
 input{
     padding: 2px;
     border-radius: 2px;
