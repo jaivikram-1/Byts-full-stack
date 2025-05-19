@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="shortcut icon" href="https://wallpaperaccess.com/full/5011470.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+     <h1>Add two numbers</h1>
+    <br>
+        <fieldset>
+        <label ><strong>NUM1=</strong></label>
+        <input type="number"  id="num1">
+        <br>
+        <label ><strong>NUM2=</strong></label>
+        <input type="number"  id="num2">
+        <br>
+        <button onclick="add()">add</button>
+        <img src="" alt="">
+        <div>
+        <p id="result"></p>
+            </div>
+    </fieldset>
+
+     <script>
+        function add(){
+            var a = document.getElementById('num1').value;
+            var b = document.getElementById('num2').value;
+            var sum=parseInt(a)+ parseInt(b);
+            document.getElementById('result').textContent ="The sum is: "+ sum;
+        }
+     </script>
+
+
+</body>
+</html>

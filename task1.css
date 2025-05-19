@@ -1,0 +1,59 @@
+h1{
+    margin:0;
+    border:10px;
+    padding-top:0;
+    border-radius: 5px;
+    color:black;
+    background-color: aliceblue;
+    margin-top: 200px;
+    margin-left: 610px;
+    margin-right: 610px;
+    border-radius: 5px;
+
+}
+
+body{
+    text-align: center;
+background: #2A7B9B;
+background-image: url('https://th.bing.com/th/id/OIP.5yoJUOtisr3xq6wtJedmDgHaEo?cb=iwc2&rs=1&pid=ImgDetMain');    height: 1px;
+    border: 200px;
+input{
+    padding: 2px;
+    border-radius: 2px;
+    margin:5px;
+    color:black;
+    background-color: white;
+}
+fieldset{
+     display: inline-block;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:200px;
+    padding-left: 20px;
+    padding-top: 0%;
+    margin:0;
+}
+div{
+    text-align: center;
+    margin-left: 70px;
+}
+button{
+    text-align: left;
+    color:red;
+    border-radius: 10px;
+    width: 40px;
+    margin-left: 40px;
+}
+#result{
+        padding: 20px;
+        background-color: rgba(240, 248, 255, 0.864);
+        color:red;
+        color: black;
+        height: 10px;
+        width:100px;
+        
+       
+        
+    }
